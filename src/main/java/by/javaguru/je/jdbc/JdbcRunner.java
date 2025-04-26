@@ -13,7 +13,7 @@ public class JdbcRunner {
         System.out.println(ticketDao.findALl(filter));
         System.out.println("__________________");
         var flightDao = FlightDao.getInstance();
-        System.out.println(flightDao.findALl());
+        System.out.println(flightDao.findAll());
 
 
     }
